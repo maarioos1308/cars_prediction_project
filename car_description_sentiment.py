@@ -4,7 +4,7 @@ from langchain_community.chat_models.openai import ChatOpenAI
 prompt_template = (
     "Analyze the following description of a used car to determine the sentiment expressed. Sentiment analysis involves evaluating the emotional tone behind words to understand attitudes and emotions. You will analyze this text: {description}. Identify if the sentiment is positive, negative, or neutral, highlighting specific emotions like satisfaction or disappointment. Provide a summary of your findings, indicating the overall tone and specific emotional expressions."
 )
-api_key = "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"
+api_key = "YOUR_API_KEY"
 
 prompt = PromptTemplate(template=prompt_template, input_variables=["description"])
 
